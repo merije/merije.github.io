@@ -1,0 +1,76 @@
+body {
+	
+	background-image: url(../images/bg3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: helvetica, arial, san-serif;
+
+}
+
+.main {
+	background-color: rgba(255,255,255,0.5);
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+h1 {
+	font-family: 'Archivo Black', sans-serif;
+	text-shadow: 2px 2px 5px grey;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 50px;
+
+}
+
+h2{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+	margin-top: 0;
+
+}
+
+h3{
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+h3:hover {
+	text-decoration: underline;
+}
+
+.js h3 + * {
+	display: none;
+}
+
+
+img{
+	border: 10px solid cadetblue;
+	border-radius: 50%;
+	/* centres the image */
+	display: block;
+	margin: 0 auto;
+}
+
+p,
+ul,
+ol {
+	color: black;
+	line-height: 1.5;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	color: cadetblue;
+	transition: color 500ms;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
